@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.24)  25 FEB 2021 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.24)  25 FEB 2021 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,11 +560,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6 <./Report-_files/figure-latex/rw_diff-1.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-29.
-(/Users/emilyschwabe/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -587,17 +582,17 @@ Package rerunfilecheck Info: File `Report-.out' has not changed.
 (rerunfilecheck)             Checksum: 7856CEEC24B29A6626BB37663DC43FDE;1439.
  ) 
 Here is how much of TeX's memory you used:
- 9702 strings out of 480971
- 142700 string characters out of 5906519
+ 9660 strings out of 480971
+ 142010 string characters out of 5906519
  442117 words of memory out of 5000000
- 26707 multiletter control sequences out of 15000+600000
- 447296 words of font info for 59 fonts, out of 8000000 for 9000
+ 26669 multiletter control sequences out of 15000+600000
+ 446977 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  71i,11n,74p,241b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
-{/Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.en
-c}{/Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
-{/Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.en
+{/Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.
+enc}{/Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.en
+c}{/Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.
+enc}{/Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.en
 c}</Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.
 pfb></Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx1
 2.pfb></Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmm
@@ -608,12 +603,11 @@ lmr10.pfb></Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/type1/public/lm
 m/lmr17.pfb></Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/type1/public/
 lm/lmr8.pfb></Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/type1/public/
 lm/lmsy10.pfb></Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/type1/publi
-c/lm/lmsy8.pfb></Users/emilyschwabe/Library/TinyTeX/texmf-dist/fonts/type1/publ
-ic/lm/lmtt10.pfb>
-Output written on Report-.pdf (8 pages, 220787 bytes).
+c/lm/lmsy8.pfb>
+Output written on Report-.pdf (8 pages, 194017 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
+ 207 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
  44 named destinations out of 1000 (max. 500000)
  123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
