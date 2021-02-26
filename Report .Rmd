@@ -3,6 +3,7 @@ title: "My Report for Assignment 6"
 author: "Emiy Schwabe"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: pdf_document
+documentclass: report
 geometry:
 - top=1.5in
 - bottom=1.5in
@@ -13,6 +14,8 @@ toc: TRUE
 toc-depth: 3
 header-includes:
 - \usepackage{fancyhdr}
+bibliography: "references.bib"
+csl: "ecology.csl"
 ---
 
 \pagestyle{fancy}
@@ -20,19 +23,17 @@ header-includes:
 \fancyhead[RO,RE]{Assignment 6}
 \fancyfoot[CE,CO]{\thepage}
 
-```{r, echo=FALSE}
-
+```{r setup_knitcitations, echo = FALSE, message = FALSE}
 ## load the package
 library("knitcitations")
-library(bibtex)
 
 ## clean out any existing .bib files
-#cleanbib()
+cleanbib()
 
 ## set pandoc for formatting
-#options("citation_format" = "pandoc")
-
+options("citation_format" = "pandoc")
 ```
+
 
 
 # Abstract
@@ -139,4 +140,6 @@ Viverra urna in arcu ut, bibendum, at. Eu placerat sociis mauris, elementum risu
 Maecenas molestie pellentesque felis mauris nisl viverra sapien, in inceptos imperdiet mi aliquam ultrices. Ante sit. Erat eget sed tempus curabitur viverra cum lacus? Tellus ac porttitor mi eleifend lacus lacinia duis ut dictumst. Leo nisi purus lobortis ullamcorper tempor in. Varius eu nulla, suspendisse eget, vel. Convallis hac. Faucibus praesent cum nisl vitae morbi ipsum neque. Sem in mi, primis fusce ac magna elementum sociosqu ante. Orci pellentesque donec amet sed sed libero magnis in malesuada odio vulputate elementum, sem. Sociis sed a porttitor blandit nec nec ridiculus sollicitudin? Dictumst facilisis nisi ac lobortis est montes dolor cum nec. Natoque, hendrerit adipiscing iaculis, lacinia risus purus, congue lorem. Pretium mus nam per tempus metus volutpat et habitant.
 
 # References
+```{r, echo=FALSE, message=FALSE}
 write.bibtex(file = "references.bib")
+```
